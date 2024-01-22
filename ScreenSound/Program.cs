@@ -109,3 +109,5 @@ void ExibirOpcoesDoMenu()
 }
 
 ExibirOpcoesDoMenu();
+
+//sk - lP5BApTfcnmwHUu9QQdvT3BlbkFJHM3tBePs6G2xfMr4xJWx
