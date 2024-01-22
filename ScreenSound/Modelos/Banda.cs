@@ -1,50 +1,53 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 
-namespace ScreenSound.Modelos;
-
-public class Banda : IAvaliavel
+namespace ScreenSound.Modelos
 {
-    private List<Album> albuns = new List<Album>();
-    private List<Avaliacao> notas = new List<Avaliacao>();
-
-    public Banda(string nome)
+    public class Banda : IAvaliavel
     {
-        Nome = nome;
-    }
+        internal List<Album> albuns = new List<Album>();
+        private List<Avaliacao> notas = new List<Avaliacao>();
 
-    public string Nome { get; }
-    public double Media
-    {
-        get
+        public Banda(string nome)
         {
-            if (notas.Count == 0)
+            Nome = nome;
+        }
+
+        public string Nome { get; }
+        public double Media
+        {
+            get
             {
-                return 0;
-            }
-            else
-            {
-                return notas.Average(a => a.Nota);
+                if (notas.Count == 0)
+                {
+                    return 0;
+                }
+                else
+                {
+                    return notas.Average(a => a.Nota);
+                }
             }
         }
-    }
-    public List<Album> Albuns => albuns;
+        internal List<Album> Albuns => albuns;
 
-    public void AdicionarAlbum(Album album)
-    {
-        albuns.Add(album);
-    }
-
-    public void AdicionarNota(Avaliacao nota)
-    {
-        notas.Add(nota);
-    }
-
-    public void ExibirDiscografia()
-    {
-        Console.WriteLine($"Discografia da banda {Nome}");
-        foreach (Album album in albuns)
+        internal void AdicionarAlbum(Album album)
         {
-            Console.WriteLine($"Álbum: {album.Nome} ({album.DuracaoTotal})");
+            albuns.Add(album);
+        }
+
+        public void AdicionarNota(Avaliacao nota)
+        {
+            notas.Add(nota);
+        }
+
+        public void ExibirDiscografia()
+        {
+            Console.WriteLine($"Discografia da banda {Nome}");
+            foreach (Album album in albuns)
+            {
+                Console.WriteLine($"Álbum: {album.Nome} ({album.DuracaoTotal})");
+            }
         }
     }
 }
