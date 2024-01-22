@@ -1,0 +1,28 @@
+C:\Users\marcos.lima.SKA\source\repos\Teste\Teste\bin\Debug\net8.0\ScreenSound.exe
+C:\Users\marcos.lima.SKA\source\repos\Teste\Teste\bin\Debug\net8.0\ScreenSound.deps.json
+C:\Users\marcos.lima.SKA\source\repos\Teste\Teste\bin\Debug\net8.0\ScreenSound.runtimeconfig.json
+C:\Users\marcos.lima.SKA\source\repos\Teste\Teste\bin\Debug\net8.0\ScreenSound.dll
+C:\Users\marcos.lima.SKA\source\repos\Teste\Teste\bin\Debug\net8.0\ScreenSound.pdb
+C:\Users\marcos.lima.SKA\source\repos\Teste\Teste\obj\Debug\net8.0\ScreenSound.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marcos.lima.SKA\source\repos\Teste\Teste\obj\Debug\net8.0\ScreenSound.AssemblyInfoInputs.cache
+C:\Users\marcos.lima.SKA\source\repos\Teste\Teste\obj\Debug\net8.0\ScreenSound.AssemblyInfo.cs
+C:\Users\marcos.lima.SKA\source\repos\Teste\Teste\obj\Debug\net8.0\ScreenSound.csproj.CoreCompileInputs.cache
+C:\Users\marcos.lima.SKA\source\repos\Teste\Teste\obj\Debug\net8.0\ScreenSound.dll
+C:\Users\marcos.lima.SKA\source\repos\Teste\Teste\obj\Debug\net8.0\refint\ScreenSound.dll
+C:\Users\marcos.lima.SKA\source\repos\Teste\Teste\obj\Debug\net8.0\ScreenSound.pdb
+C:\Users\marcos.lima.SKA\source\repos\Teste\Teste\obj\Debug\net8.0\ScreenSound.genruntimeconfig.cache
+C:\Users\marcos.lima.SKA\source\repos\Teste\Teste\obj\Debug\net8.0\ref\ScreenSound.dll
+C:\MCL\Estudos\Curso Alura CSharp\ScreenSound\ScreenSound\bin\Debug\net8.0\ScreenSound.exe
+C:\MCL\Estudos\Curso Alura CSharp\ScreenSound\ScreenSound\bin\Debug\net8.0\ScreenSound.deps.json
+C:\MCL\Estudos\Curso Alura CSharp\ScreenSound\ScreenSound\bin\Debug\net8.0\ScreenSound.runtimeconfig.json
+C:\MCL\Estudos\Curso Alura CSharp\ScreenSound\ScreenSound\bin\Debug\net8.0\ScreenSound.dll
+C:\MCL\Estudos\Curso Alura CSharp\ScreenSound\ScreenSound\bin\Debug\net8.0\ScreenSound.pdb
+C:\MCL\Estudos\Curso Alura CSharp\ScreenSound\ScreenSound\obj\Debug\net8.0\ScreenSound.GeneratedMSBuildEditorConfig.editorconfig
+C:\MCL\Estudos\Curso Alura CSharp\ScreenSound\ScreenSound\obj\Debug\net8.0\ScreenSound.AssemblyInfoInputs.cache
+C:\MCL\Estudos\Curso Alura CSharp\ScreenSound\ScreenSound\obj\Debug\net8.0\ScreenSound.AssemblyInfo.cs
+C:\MCL\Estudos\Curso Alura CSharp\ScreenSound\ScreenSound\obj\Debug\net8.0\ScreenSound.csproj.CoreCompileInputs.cache
+C:\MCL\Estudos\Curso Alura CSharp\ScreenSound\ScreenSound\obj\Debug\net8.0\ScreenSound.dll
+C:\MCL\Estudos\Curso Alura CSharp\ScreenSound\ScreenSound\obj\Debug\net8.0\refint\ScreenSound.dll
+C:\MCL\Estudos\Curso Alura CSharp\ScreenSound\ScreenSound\obj\Debug\net8.0\ScreenSound.pdb
+C:\MCL\Estudos\Curso Alura CSharp\ScreenSound\ScreenSound\obj\Debug\net8.0\ScreenSound.genruntimeconfig.cache
+C:\MCL\Estudos\Curso Alura CSharp\ScreenSound\ScreenSound\obj\Debug\net8.0\ref\ScreenSound.dll
