@@ -8,15 +8,6 @@ using ScreenSound.Menus;
 using OpenAI_API;
 using System;
 
-var client = new OpenAIAPI("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");
-
-var chat = client.Chat.CreateConversation();
-chat.AppendSystemMessage("Resuma a banda Beatles!");
-
-string resposta = await chat.getResponseFromChatbotAsync();
-Console.WriteLine(resposta);
-
-
 Banda rollingStones = new Banda("Rolling Stones");
 rollingStones.AdicionarNota(new Avaliacao(10));
 rollingStones.AdicionarNota(new Avaliacao(9));
@@ -119,5 +110,3 @@ void ExibirOpcoesDoMenu()
 }
 
 ExibirOpcoesDoMenu();
-
-//sk - lP5BApTfcnmwHUu9QQdvT3BlbkFJHM3tBePs6G2xfMr4xJWx

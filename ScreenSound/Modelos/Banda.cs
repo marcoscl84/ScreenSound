@@ -29,6 +29,8 @@ namespace ScreenSound.Modelos
                 }
             }
         }
+
+        public string? Resumo { get; set; }
         internal List<Album> Albuns => albuns;
 
         internal void AdicionarAlbum(Album album)
