@@ -5,6 +5,16 @@ using System.Linq; // Added for Sum and Average
 using System.Threading; // Added for Thread.Sleep
 using ScreenSound.Modelos; // Added for Banda, Avaliacao, Album, and Musica
 using ScreenSound.Menus;
+using OpenAI_API;
+using System;
+
+var client = new OpenAIAPI("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");
+
+var chat = client.Chat.CreateConversation();
+chat.AppendSystemMessage("Resuma a banda Beatles!");
+
+string resposta = await chat.getResponseFromChatbotAsync();
+Console.WriteLine(resposta);
 
 
 Banda rollingStones = new Banda("Rolling Stones");

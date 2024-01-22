@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\marcos.lima.SKA\\source\\repos\\Teste\\Teste\\ScreenSound.csproj": {}
+    "C:\\MCL\\Estudos\\Curso-Alura-CSharp\\ScreenSound\\ScreenSound\\ScreenSound.csproj": {}
   },
   "projects": {
-    "C:\\Users\\marcos.lima.SKA\\source\\repos\\Teste\\Teste\\ScreenSound.csproj": {
+    "C:\\MCL\\Estudos\\Curso-Alura-CSharp\\ScreenSound\\ScreenSound\\ScreenSound.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\marcos.lima.SKA\\source\\repos\\Teste\\Teste\\ScreenSound.csproj",
+        "projectUniqueName": "C:\\MCL\\Estudos\\Curso-Alura-CSharp\\ScreenSound\\ScreenSound\\ScreenSound.csproj",
         "projectName": "ScreenSound",
-        "projectPath": "C:\\Users\\marcos.lima.SKA\\source\\repos\\Teste\\Teste\\ScreenSound.csproj",
+        "projectPath": "C:\\MCL\\Estudos\\Curso-Alura-CSharp\\ScreenSound\\ScreenSound\\ScreenSound.csproj",
         "packagesPath": "C:\\Users\\marcos.lima.SKA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\marcos.lima.SKA\\source\\repos\\Teste\\Teste\\obj\\",
+        "outputPath": "C:\\MCL\\Estudos\\Curso-Alura-CSharp\\ScreenSound\\ScreenSound\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\marcos.lima.SKA\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "OpenAI": {
+              "target": "Package",
+              "version": "[1.10.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
