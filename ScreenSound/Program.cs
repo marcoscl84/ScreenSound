@@ -7,7 +7,14 @@ try
     var context = new ScreenSoundContext();
     var artistaDAL = new ArtistaDAL(context);
 
-    var novoArtista = new Artista("Billie Joe", "aqui vai a bio do maluco");
+    //var novoArtista = new Artista("Billie Joe", "aqui vai a bio do maluco");
+    //artistaDAL.Adicionar(novoArtista);
+
+    //var novoArtista = new Artista("Billie Joe", "aqui vai a bio do maluco mucho loco loco loco") { Id = 1 };
+    //artistaDAL.Atualizar(novoArtista);
+
+    var novoArtista = new Artista("Billie Joe", "aqui vai a bio do maluco mucho loco loco loco") { Id = 1 };
+    artistaDAL.Deletar(novoArtista);
 
     var listaArtistas = artistaDAL.Listar();
 
