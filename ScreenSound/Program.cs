@@ -4,6 +4,7 @@ using ScreenSound.Modelos;
 
 var context = new ScreenSoundContext();
 var artistaDAL = new ArtistaDAL(context);
+var musicaDAL = new MusicaDAL(context);
 
 Dictionary<int, Menu> opcoes = new();
 opcoes.Add(1, new MenuRegistrarArtista());
