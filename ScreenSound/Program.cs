@@ -4,7 +4,10 @@ using ScreenSound.Modelos;
 
 try
 {
-    var artistaDAL = new ArtistaDAL();
+    var context = new ScreenSoundContext();
+    var artistaDAL = new ArtistaDAL(context);
+
+    var novoArtista = new Artista("Billie Joe", "aqui vai a bio do maluco");
 
     var listaArtistas = artistaDAL.Listar();
 
@@ -15,7 +18,6 @@ try
 }
 catch (Exception ex)
 {
-
     Console.WriteLine(ex.Message);
 }
 
